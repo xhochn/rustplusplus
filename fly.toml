@@ -1,0 +1,15 @@
+# fly.toml app configuration file generated for rustplusplus on 2025-01-08T14:44:03Z
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'rustplusplus'
+primary_region = 'ams'
+
+[build]
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1
+  memory_mb = 2048
